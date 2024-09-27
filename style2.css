@@ -1,0 +1,36 @@
+.avatar {
+	display: flex;
+	justify-content: center;
+}
+.intro {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.works {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	
+	margin: auto;
+
+}
+img {
+	
+	margin: 5px;
+	transition: all 1s;
+	
+}
+.works img{
+	height: 300px;
+	width: 300px;
+}
+.works img:hover {
+	transform: scale(1.5);
+	animation: forwards;
+}
+.contacts {
+	display: flex;
+	flex-direction: row-reverse;
+	margin: auto;
+}
